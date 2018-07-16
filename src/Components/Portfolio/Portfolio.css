@@ -1,0 +1,43 @@
+.portfolio_container {
+    background-color: #F8F9FA;
+    color: black;
+}
+
+.title {
+    height: 200px;
+}
+
+.port_text {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #6D747C;
+    font-size: 20px;
+}
+
+.photo_boxes {
+    /* height: 600px; */
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img_boxes {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+}
+
+.port_image {
+    height: 250px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.port_image:hover {
+    opacity: 100%;
+    background-color: #f8d257;
+}
