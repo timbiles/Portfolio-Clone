@@ -6,6 +6,7 @@ import Body from './Components/Body/Body';
 import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
 import About from './Components/About/About';
+import Team from './Components/Team/Team';
 
 class App extends Component {
   render() {
@@ -18,7 +19,8 @@ class App extends Component {
           <Body />
           <Services />
           <Portfolio />
-          <About/>
+          <About />
+          <Team />
         </div>
       </div>
     );

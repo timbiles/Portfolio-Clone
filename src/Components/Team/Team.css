@@ -1,0 +1,21 @@
+.team_container {
+    color: black;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+}
+
+.team_names {
+    display: flex;
+    justify-content: center;
+}
+
+.team_boxes {
+    margin: 5%;
+}
+
+.team_img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}

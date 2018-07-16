@@ -14,7 +14,7 @@ export default class Portfolio extends Component {
             <img
               src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/01-thumbnail.jpg"
               alt="Threads image"
-              className='port_img'
+              className='port_image'
             />
             <h2>Threads</h2>
             <p className="port_text">Illustration</p>
