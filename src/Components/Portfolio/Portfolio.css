@@ -28,7 +28,8 @@
     flex-direction: column;
     height: 400px;
     width: 350px;
-    padding: 10px;
+    margin: 10px;
+    background-color: white;
 }
 
 .port_image {

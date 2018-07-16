@@ -46,10 +46,11 @@
   }
   .hamburger {
     display: block;
-    /* flex-direction: row-reverse; */
+    justify-content: flex-end;
     /* width: 100%; */
   }
   header {
     flex-direction: row-reverse;
   }
 }
+

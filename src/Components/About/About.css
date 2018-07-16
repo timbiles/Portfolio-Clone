@@ -1,0 +1,44 @@
+.about_container {
+  background-color: white;
+  color: black;
+}
+
+.about_text_box {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  width: 31%;
+  margin: 5%;
+}
+
+.about_img {
+  border-radius: 50%;
+  border: 8px solid #eaecef;  
+}
+
+.left_box {
+  display: flex;
+  margin: 5% 10%;
+}
+
+.right_box {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 5% 10%;
+}
+
+.about_cir {
+  border-radius: 50%;
+  background-color: #f8d257;
+  border: 8px solid #eaecef;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.about_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
